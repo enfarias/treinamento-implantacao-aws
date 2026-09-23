@@ -357,7 +357,7 @@ wget https://raw.githubusercontent.com/enfarias/treinamento-implantacao-aws/main
 
 # Substituição de variáveis no arquivo de opções do EB
 sudo yum -y install gettext
-envsubst < scripts/eb/options-config.json.env > options.txt
+envsubst < options-config.json.env > options.txt
 cat options.txt
 
 # Verificar DNS e Criar Environment
