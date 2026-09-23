@@ -20,6 +20,7 @@ O projeto estrutura um ambiente seguro e escalável na AWS utilizando:
 * **AWS Lambda & Step Functions**: Processamento serverless de mídias e fluxos de orquestração.
 
 ## 📁 Estrutura do Projeto
+```text
 .
 ├── .github/
 │   └── workflows/
@@ -64,6 +65,7 @@ O projeto estrutura um ambiente seguro e escalável na AWS utilizando:
 │   ├── destroy-infra.sh                    # Remove os recursos de forma segura
 │   └── dscatalog.sql                       # Script SQL geral do banco de dados
 └── README.md
+```
 
 ## 🚀 Como Começar
 
